@@ -1,0 +1,42 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+    background: linear-gradient(45deg, #F9F6F2, #B2B2B2);
+    font-family: 'Space Grotesk', Arial;
+    color: rgb(16, 3, 3);
+}
+
+table {
+    width: 1250px;
+    text-align: center;
+    border-collapse: separate;
+}
+
+table td , table th {
+    padding: 20px;
+}
+
+table td {
+    background-color: rgba(4, 75, 32, 0.2);
+}
+
+table th {
+    background-color: rgba(1, 65, 53, 0.4); 
+}
+
+col {
+    background-color: rgba(80, 6, 140, 0.4);
+}
+
+table td:hover {
+    background-color: rgba(86, 15, 4, 0.4);
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+}
